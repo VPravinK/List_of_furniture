@@ -10,8 +10,6 @@
     margin: 1rem;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-end;
     flex-flow:row;
     width:50%;
     background-color:lightgray;
@@ -19,21 +17,36 @@
     
 }
 .date{
-    position: absolute;
-    padding:2rem;
-    border: 2rem rgb(179, 26, 26);
-    border-width: 1rem;
+    width: auto;
+    margin: auto;
+    margin-right: auto;
+    padding:1rem 2rem;
+    box-sizing:content-box;
+    border-radius: 20%;
+    background-color:black;
     font-size:1em; 
-    border-radius: 12px;  
+    align-items: center;
+    justify-content: center; 
+    color: white;  
 }
 .title{
-    position:absolute;
-    padding: 3rem 10rem;
+    width: auto;
+    margin: auto;
+    padding: 2rem ;
     height:20px;
     width:200px;
-    border: 5rem;
+    background-color:black;
+    color: white;
+    border-radius: 15%;
 }
 .rate{
-    position: absolute;
-    padding: 3rem 33rem;
+    width: fit-content;
+    margin-left: auto;
+    padding: 2rem ;
+    background-color: black;
+    color: white;
+    margin:auto;
+    
+    border-radius: 70%;
+
 }
