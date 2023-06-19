@@ -1,1 +1,0 @@
-# List_of_furniture
